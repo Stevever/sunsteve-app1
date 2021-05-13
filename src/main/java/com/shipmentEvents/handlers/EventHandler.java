@@ -165,7 +165,7 @@ public class EventHandler implements RequestHandler<ScheduledEvent, String> {
     }
     
     public static AmazonS3 getS3Client() {
-        return AmazonS3ClientBuilder.standard().withRegion(Regions.DEFAULT_REGION).build();
+        return null;
     }
     
     
